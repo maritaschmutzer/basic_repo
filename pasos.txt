@@ -1,0 +1,36 @@
+Last login: Sun Jan 31 18:49:19 on ttys000
+MacBook-Pro-de-Marita:~ maritaschmutzer$ cd Desktop
+MacBook-Pro-de-Marita:Desktop maritaschmutzer$ mkdir basic_repo
+MacBook-Pro-de-Marita:Desktop maritaschmutzer$ cd basic_repo
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ touch index.html
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ git init
+Initialized empty Git repository in /Users/maritaschmutzer/Desktop/basic_repo/.git/
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ git add .
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ git commit -m "subir html"
+[master (root-commit) ff8c74d] subir html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ git remote add origin https://github.com/maritaschmutzer/basic_repo.git
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 208 bytes | 208.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/maritaschmutzer/basic_repo.git
+ * [new branch]      master -> master
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ git add index.html
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ git commit -m "actualización html"
+[master d8a88f4] actualización html
+ 1 file changed, 11 insertions(+)
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 394 bytes | 394.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/maritaschmutzer/basic_repo.git
+   ff8c74d..d8a88f4  master -> master
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ touch pasos.txt
+MacBook-Pro-de-Marita:basic_repo maritaschmutzer$ touch gitignore.text cd
+m
+
+
